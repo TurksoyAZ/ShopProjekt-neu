@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
+
+/* 
+font-family: 'Karla', sans-serif;
+Farbe: #323A45 / #848484 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0 10rem;
+}
+
+
+/* Header / Nav  ====================================================================*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+nav h2 {
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: #323a45;
+}
+
+/* M A I N ====================================================================*/
+
+/* Section ==================================================================== */
+
+/* teil 1 */
+.container1 {
+  padding-top: 60px;
+}
+.container1 a img {
+  width: 100%;
+}
+.container1 a img:hover {
+  opacity: 0.5;
+  transition: 0.3s linear;
+}
+
+.container1 article:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.container1 p {
+  font-family: "Karla", sans-serif;
+  color: #848484;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+/* teil2 */
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.container2 a img:hover {
+  opacity: 0.5;
+  transition: 0.3s linear;
+}
+
+.container2 div {
+  width: 300px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.container2 img {
+  width: 100%;
+  height: 100%;
+}
+.container2 article:nth-of-type(1) {
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.container2 p {
+  font-family: "Karla", sans-serif;
+  color: #848484;
+  font-weight: bold;
+  padding: 5px 0 0px 0;
+  font-size: 13px;
+}
+
+/* FOOTER  ====================================================================*/
+
+footer {
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+footer > div {
+  width: 25%;
+  height: 200px;
+  line-height: 25px;
+}
+
+footer div:nth-of-type(1) {
+  width: 21rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer div:nth-of-type(2) {
+  height: 120px;
+  width: 130px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer div:nth-of-type(3) {
+  height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer div:nth-of-type(4) {
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h4 {
+  padding-top: 50px;
+  font-family: "Karla", sans-serif;
+  color: #848484;
+  font-size: 12.5px;
+}
+
+footer h4 > span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #848484;
+  border-radius: 50%;
+  margin-bottom: 1px;
+  margin: 0 8px;
+}
+
+footer h3 {
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  font-size: 16px;
+}
+
+footer p {
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  font-size: 14px;
+}
